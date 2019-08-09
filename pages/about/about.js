@@ -9,7 +9,6 @@ Page({
   },
   onLoad: function() {
     var vm = this;
-    console.log(this);
     setInterval(vm.updateTime, 1000)
   }
 })

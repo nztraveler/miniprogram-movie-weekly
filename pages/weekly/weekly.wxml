@@ -1,0 +1,10 @@
+<!--pages/weekly/weekly.wxml-->
+<view class="container">
+  <text>本周推荐</text>
+  <image src="{{thisWeekMovie.image}}"></image>
+  <text>{{thisWeekMovie.name}}</text>
+  <text>{{thisWeekMovie.comment}}</text>
+  <text>{{count+score}}</text>
+  <text>{{score>=60?'yes':'no'}}</text>
+  <text style="font-size:16px;color:red">强烈推荐</text>
+</view>
