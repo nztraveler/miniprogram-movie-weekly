@@ -9,7 +9,7 @@ Page({
       name: '教父',
       comment: '最精彩的电影。。。',
       image: '/images/my_avatar.jpg',
-      isHighlyRecommended:true
+      isHighlyRecommended:false
     },
     count:213,
     score:55
