@@ -19,11 +19,12 @@
       }
     ],
     "color": "#ccc",
-    "selectedColor":"#000"
+    "selectedColor": "#000"
   },
-  "window":{
+  "window": {
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText":"default title"
-  }
+    "navigationBarTitleText": "default title"
+  },
+  "sitemapLocation": "sitemap.json"
 }

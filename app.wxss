@@ -5,7 +5,7 @@
   justify-content: space-around;
   height: 100vh;
   /* text-align: center; */
-  background-color: azure;
+  /* background-color: azure; */
 }
 
 .navigator-default{

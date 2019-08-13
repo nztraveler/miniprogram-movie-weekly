@@ -5,12 +5,22 @@ Page({
    * Page initial data
    */
   data: {
-    thisWeekMovie: {
+    thisWeekMovieList: [{
       name: '教父',
       comment: '最精彩的电影。。。',
       image: '/images/my_avatar.jpg',
       isHighlyRecommended:false
-    },
+    },{
+        name: '教父2',
+        comment: '最精彩的电影。。。',
+        image: '/images/my_avatar.jpg',
+        isHighlyRecommended: false
+    },{
+        name: '教父3',
+        comment: '最精彩的电影。。。',
+        image: '/images/my_avatar.jpg',
+        isHighlyRecommended: false
+    }],
     count:213,
     score:55
   },
