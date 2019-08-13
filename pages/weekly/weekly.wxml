@@ -1,17 +1,18 @@
 <!--pages/weekly/weekly.wxml-->
 <view class="container">
   <text>本周推荐</text>
-  <swiper class="swiper-movie" indicator-dots="{{true}}" next-margin="50rpx" previous-margin="50rpx">
-    <swiper-item class="movie" wx:for="{{thisWeekMovieList}}" >
+  <swiper class="swiper-movie" indicator-dots="{{true}}" next-margin="50rpx" previous-margin="50rpx" current="{{currentIndex}}" >
+    <swiper-item class="movie" wx:for="{{thisWeekMovieList}}">
       <view class="container">
         <image src="{{item.image}}"></image>
         <!-- <view class="movie-desc"> -->
-          <text>第{{index+1}}周 {{item.name}}</text>
-          <text>{{item.comment}}</text>
-          <!-- <text>{{count+score}}</text>
+        <text>第{{index+1}}周 {{item.name}}</text>
+        <text>{{item.comment}}</text>
+        <!-- <text>{{count+score}}</text>
           <text>{{score>=60?'yes':'no'}}</text> -->
-          <text style="font-size:16px;color:red" hidden="{{!thisWeekMovie.isHighlyRecommended}}">强烈推荐</text>
-        </view>
+        <text style="font-size:16px;color:red" hidden="{{!thisWeekMovie.isHighlyRecommended}}">强烈推荐</text>
+        <button bindtap="onBackTap" class="movie-btn" wx:if="{{index!== thisWeekMovieList.length -1}}"  >返回本周</button>
+      </view>
       <!-- </view> -->
     </swiper-item>
   </swiper>

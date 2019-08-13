@@ -24,3 +24,12 @@
   flex-direction: column;
   justify-content: space-between;
 } 
+
+.movie-btn{
+  /* width: 80rpx;
+  height: 40rpx; */
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  background-color: violet;
+}
